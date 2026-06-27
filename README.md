@@ -30,27 +30,6 @@ The project provides hands-on experience with Azure cloud services, data integra
 
 ---
 
-## Project Architecture
-
-```text
-                 CSV File
-                    │
-                    ▼
-       Blob Storage (raw-data)
-                    │
-                    ▼
-        Azure Data Factory (ADF)
-      ┌──────────────────────────┐
-      │      Get Metadata        │
-      │            │             │
-      │            ▼             │
-      │        Copy Data         │
-      └──────────────────────────┘
-                    │
-                    ▼
-   Blob Storage (processed-data)
-```
-
 ## Project Workflow
 
 ### Step 1: Create Azure Resources
