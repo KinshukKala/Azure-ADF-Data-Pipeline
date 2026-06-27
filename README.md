@@ -91,19 +91,7 @@ The **Get Metadata** activity validates:
 
 ### Data Copy
 
-The **Copy Data** activity copies the CSV file from:
-
-```text
-raw-data
-```
-
-to
-
-```text
-processed-data
-```
-
----
+The **Copy Data** activity copies the CSV file from raw-data to processes-data
 
 ## Expected Output
 
